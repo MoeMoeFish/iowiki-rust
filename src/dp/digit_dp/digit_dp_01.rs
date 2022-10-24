@@ -1,8 +1,8 @@
 /*
  * @Author: error: git config user.name && git config user.email & please set dead value or install git
  * @Date: 2022-10-24 18:45:23
- * @LastEditors: error: git config user.name && git config user.email & please set dead value or install git
- * @LastEditTime: 2022-10-24 20:15:07
+ * @LastEditors: MoeMoeFish moemoefish@qq.com
+ * @LastEditTime: 2022-10-24 20:19:10
  * @Description: 
  * 
  * https://oi-wiki.org/dp/number/ 例题一
@@ -14,7 +14,12 @@ use crate::runner;
 struct Solution1;
 
 impl Solution1 {
-    fn solve(n:i128) -> Vec<i128> {
+    fn solveN(n:i128) -> Vec<i128> {
+        let ans: Vec<i128> = Vec::new();
+        ans
+    }
+
+    fn solve(l:i128, r:i128) -> Vec<i128> {
         let ans: Vec<i128> = Vec::new();
         ans
     }
