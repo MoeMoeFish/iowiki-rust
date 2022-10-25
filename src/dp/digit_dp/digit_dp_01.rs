@@ -2,14 +2,12 @@
  * @Author: error: git config user.name && git config user.email & please set dead value or install git
  * @Date: 2022-10-24 18:45:23
  * @LastEditors: MoeMoeFish moemoefish@qq.com
- * @LastEditTime: 2022-10-24 20:19:10
+ * @LastEditTime: 2022-10-25 13:26:33
  * @Description: 
  * 
  * https://oi-wiki.org/dp/number/ 例题一
  * 题目大意：给定两个正整数 ，求在 中的所有整数中，每个数码（digit）各出现了多少次。
  */
-pub struct Runner;
-use crate::runner;
 
 struct Solution1;
 
@@ -25,8 +23,6 @@ impl Solution1 {
     }
 }
 
-impl runner::Runner for Runner {
-    fn run() {
-        println!("digit_dp_01");
-    }
+pub(crate) fn run() {
+    println!("digit_dp_01");
 }
